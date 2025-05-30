@@ -1,0 +1,84 @@
+Title: Dashboard Profile Web Page
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .profile {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .profile h2 {
+            margin: 0 0 10px 0;
+        }
+        .profile p {
+            color: gray;
+        }
+        .profile .info {
+            margin-top: 20px;
+        }
+        .profile .info div {
+            margin-bottom: 10px;
+        }
+        .profile button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .profile button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dashboard Profile</h1>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+            <h2>John Doe</h2>
+            <p>Software Engineer</p>
+            <div class="info">
+                <div><strong>Email:</strong> johndoe@example.com</div>
+                <div><strong>Phone:</strong> (123) 456-7890</div>
+                <div><strong>Location:</strong> New York, USA</div>
+            </div>
+            <button>Edit Profile</button>
+        </div>
+    </div>
+</body>
+</html>
+```
